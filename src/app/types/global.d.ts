@@ -11,6 +11,7 @@ declare module '*.jpe';
 declare module '*.jpeg';
 
 declare module '*.svg' {
+    // eslint-disable-next-line no-undef
     const SVG: React.VFC<React.SVGProps<SVGSVGElement>>;
     export default SVG;
 }
